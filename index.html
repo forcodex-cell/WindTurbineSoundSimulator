@@ -12,7 +12,6 @@
       <h1>Wind Turbine Sound Generator</h1>
       <p>Interactive demo: distance-aware, wind-direction-aware, blade length scaling.</p>
     </header>
-
     <section class="controls">
       <div class="control-group">
         <label for="distance">Distance (m): <span id="distanceVal">200</span></label>
@@ -85,6 +84,24 @@
       <div style="height:8px"></div>
       <canvas id="windDirCanvas" width="480" height="120"></canvas>
     </section>
+<div class="control-group">
+  <label for="speakerProfile">Speaker Profile</label>
+  <select id="speakerProfile">
+    <option value="laptop" selected>Laptop Speakers</option>
+    <option value="external">External Speakers</option>
+    <option value="flat">Flat / Headphones</option>
+  </select>
+</div>
+
+<div class="control-group">
+  <label for="realism">Realism Mode</label>
+  <input type="checkbox" id="realism" checked>
+</div>
+
+<div class="control-group">
+  <label for="hq">High Quality Mode</label>
+  <input type="checkbox" id="hq">
+</div>
 
     <footer>
       <p>This is a simplified synthesis using Web Audio. Acoustic models are approximations based on real-world data and propagation physics.</p>
