@@ -65,5 +65,5 @@ This project is built with:
 
 ---
 
-## 📁 Project Structure
+
 
